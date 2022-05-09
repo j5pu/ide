@@ -1,2 +1,2 @@
-# tap
-Core support for Homebrew Tap
+# jet
+JetBrains for Homebrew Tap
