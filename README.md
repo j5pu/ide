@@ -1,2 +1,2 @@
-# ide
-IDE Environment
+# tap
+Core support for Homebrew Tap
