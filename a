@@ -1,0 +1,5 @@
+#!/bin/bash
+echo $PROJECT_DIR
+echo $PATH
+echo $HOLA
+echo $PYCHARM_PROPERTIES

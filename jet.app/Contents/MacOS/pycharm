@@ -1,9 +1,8 @@
-#!/bin/bash
+#!/bin/sh
 
 PROJECT_DIR="$(dirname "${0%.*}")"; export PROJECT_DIR
 PATH="${PROJECT_DIR}/bin:${PATH}"; export PATH
 
-export PYCHARM_PROPERTIES='/Volumes/USB-2TB/Shared/JetBrains/config/PyCharm/.properties'
-export PYCHARM_VM_OPTIONS='/Volumes/USB-2TB/Shared/JetBrains/config/PyCharm/.vmoptions'
-
-pycharm "${PROJECT_DIR}"
+export PYCHARM_PROPERTIES='/tmp/JetBrains/config/PyCharm/.properties'
+export PYCHARM_VM_OPTIONS='/tmp/JetBrains/config/PyCharm/.vmoptions'
+/Applications/PyCharm.app/Contents/MacOS/pycharm "${PROJECT_DIR}"
